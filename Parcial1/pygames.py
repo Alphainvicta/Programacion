@@ -17,12 +17,13 @@ s = pygame.transform.scale(s, (160, 160))
 srect = s.get_rect()
 
 
-
 while 1:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
         if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                sys.exit()
             if event.key == pygame.K_1:
                 srect.x = 0
                 srect.y = 0
@@ -60,7 +61,7 @@ while 1:
             speed = [0, 0]
             o1 = 0
             c1 += 1
-    
+
     if o2 == 1:
         if c2 == 0 and srect.right >= (width / 2 + 80):
             speed = [0, spd]
@@ -74,7 +75,7 @@ while 1:
                 srect.left = -160
                 c2 = 0
                 o2 = 0
-    
+
     if o3 == 1:
         if c3 == 0 and srect.right >= (width / 2 + 80):
             angle = 0.0
@@ -88,7 +89,6 @@ while 1:
             srect.x = radio * math.cos(angle) + x
             srect.y = radio * math.sin(angle) + y
             angle += 0.01
-    
 
     screen.fill(black)
     screen.blit(s, srect)
