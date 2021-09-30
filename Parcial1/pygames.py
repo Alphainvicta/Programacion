@@ -4,7 +4,7 @@ import math
 pygame.init()
 
 size = width, height = 1920, 1080
-spd = 3
+spd = 1
 speed = [0, 0]
 o1 = 0
 o2 = 0
@@ -24,6 +24,11 @@ while 1:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_ESCAPE:
                 sys.exit()
+            if event.key == pygame.K_KP_PLUS:
+                spd += 1
+            if event.key == pygame.K_KP_MINUS:
+                if spd > 1:
+                    spd -= 1
             if event.key == pygame.K_1:
                 srect.x = 0
                 srect.y = 0
