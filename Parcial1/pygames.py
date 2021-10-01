@@ -9,12 +9,9 @@ height = int(input("introduce el alto de la pantalla: "))
 
 size = width, height
 spd = 1
+speed = [0, 0]
 ang = 0.01
 angulo = 0.0
-radio = width / 4
-x = width / 2 - 80
-y = height / 2 - 80
-speed = [0, 0]
 o = 0
 black = 0, 0, 0
 screen = pygame.display.set_mode(size)
@@ -97,8 +94,8 @@ def cruz(speed):
 
 
 def circulo(srect, angulo):
-    srect.x = radio * math.cos(angulo) + x
-    srect.y = radio * math.sin(angulo) + y
+    srect.x = (height / 2 - 80) * math.cos(angulo) + (width / 2 - 80)
+    srect.y = (height / 2 - 80) * math.sin(angulo) + (height / 2 - 80)
     angulo += ang
     return srect, angulo
 
