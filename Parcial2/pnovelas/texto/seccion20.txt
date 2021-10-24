@@ -1,0 +1,3 @@
+Te encuentras una pared a tu izquierda y frente a ti...
+
+    ir a abajo o derecha

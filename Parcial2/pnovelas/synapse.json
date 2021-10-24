@@ -5,14 +5,180 @@
                 "opciones": [32],
                 "32": "seccion11"
         },
+        "seccion1": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion1.txt",
+                "opciones": [119, 100],
+                "119": "seccion2",
+                "100": "seccion6"        
+        },
+        "seccion2": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion2.txt",
+                "opciones": [119, 115],
+                "119": "seccion3",
+                "115": "seccion1"        
+        },
+        "seccion3": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion3.txt",
+                "opciones": [119, 115],
+                "119": "seccion4",
+                "115": "seccion2"        
+        },
+        "seccion4": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion4.txt",
+                "opciones": [100, 119, 115],
+                "100": "seccion9",
+                "119": "seccion5",
+                "115": "seccion3"        
+        },
+        "seccion5": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion5.txt",
+                "opciones": [100, 115],
+                "100": "seccion10",
+                "115": "seccion4"        
+        },
+        "seccion6": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion6.txt",
+                "opciones": [97],
+                "97": "seccion1"        
+        },
+        "seccion7": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion7.txt",
+                "opciones": [119, 100],
+                "119": "seccion8",
+                "100": "seccion12"        
+        },
+        "seccion8": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion8.txt",
+                "opciones": [119, 115],
+                "119": "seccion9",
+                "115": "seccion7"        
+        },
+        "seccion9": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion9.txt",
+                "opciones": [97, 115],
+                "97": "seccion4",
+                "115": "seccion8"        
+        },
+        "seccion10": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion10.txt",
+                "opciones": [97, 100],
+                "97": "seccion5",
+                "100": "seccion15"        
+        },
         "seccion11": {
                 "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
                 "texto": "./Parcial2/pnovelas/texto/seccion11.txt",
                 "opciones": [119, 115],
-                "119": "fin",
-                "115": "inicio"
-                
-                
+                "119": "seccion12",
+                "115": "inicio"        
+        },
+        "seccion12": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion12.txt",
+                "opciones": [97, 115],
+                "97": "seccion7",
+                "115": "seccion11"        
+        },
+        "seccion13": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion13.txt",
+                "opciones": [119, 100],
+                "119": "seccion14",
+                "100": "seccion18"        
+        },
+        "seccion14": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion14.txt",
+                "opciones": [119, 115],
+                "119": "seccion15",
+                "115": "seccion13"        
+        },
+        "seccion15": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion15.txt",
+                "opciones": [97, 115],
+                "97": "seccion10",
+                "115": "seccion14"        
+        },
+        "seccion16": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion16.txt",
+                "opciones": [100],
+                "100": "seccion21"      
+        },
+        "seccion17": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion17.txt",
+                "opciones": [119, 100],
+                "119": "seccion18",
+                "100": "seccion22"        
+        },
+        "seccion18": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion18.txt",
+                "opciones": [97, 115],
+                "97": "seccion13",
+                "115": "seccion17"        
+        },
+        "seccion19": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion19.txt",
+                "opciones": [119, 100],
+                "119": "seccion20",
+                "100": "seccion24"        
+        },
+        "seccion20": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion20.txt",
+                "opciones": [100, 115],
+                "100": "seccion25",
+                "115": "seccion19"        
+        },
+        "seccion21": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion21.txt",
+                "opciones": [97, 119],
+                "97": "seccion16",
+                "119": "seccion22"        
+        },
+        "seccion22": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion22.txt",
+                "opciones": [97, 115, 119],
+                "97": "seccion17",
+                "115": "seccion21",
+                "119": "seccion23"        
+        },
+        "seccion23": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion23.txt",
+                "opciones": [119, 115],
+                "119": "seccion24",
+                "115": "seccion22"        
+        },
+        "seccion24": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion24.txt",
+                "opciones": [97, 115],
+                "97": "seccion19",
+                "115": "seccion23"        
+        },
+        "seccion25": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion25.txt",
+                "opciones": [97, 119],
+                "97": "seccion20",
+                "119": "fin"        
         },
         "fin": {
                 "imagen":"./Parcial2/pnovelas/imagenes/medalla.jpg",

@@ -1,0 +1,3 @@
+Te encuentras rodeado por paredes frente a ti y a tu derecha...
+
+    ir a la izquierda o ir atras
