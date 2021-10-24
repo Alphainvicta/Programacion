@@ -1,1 +1,3 @@
-Presiona espacio para continuar
+                    Utiliza wasd para avanzar                
+                
+                Presiona espacio para continuar

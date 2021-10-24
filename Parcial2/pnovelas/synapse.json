@@ -1,62 +1,21 @@
 {
-    "inicio":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/inicio.txt"
-    },
-    "acto1":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto1.txt"
-    },
-    "acto2":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto2.txt"
-    },
-    "acto3":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto3.txt"
-    },
-    "acto4":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto4.txt"
-    },
-    "acto5":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto5.txt"
-    },
-    "acto6":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto6.txt"
-    },
-    "acto7":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto7.txt"
-    },
-    "acto8":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto8.txt"
-    },
-    "acto9":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto9.txt"
-    },
-    "acto10":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto10.txt"
-    },
-    "acto11":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto11.txt"
-    },
-    "acto12":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto12.txt"
-    },
-    "acto13":{
-        "imagen": "./Parcial2/pnovelas/imagenes/download.gif",
-        "texto": "./Parcial2/pnovelas/texto/acto13.txt"
-    },
-    "fin":{
-        "imagen":"./Parcial2/pnovelas/imagenes/download.jfif",
-        "texto":"./Parcial2/pnovelas/texto/fin.txt"
-    }
+        "inicio": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/inicio.txt",
+                "opciones": [32],
+                "32": "seccion11"
+        },
+        "seccion11": {
+                "imagen": "./Parcial2/pnovelas/imagenes/laberinto.jpg",
+                "texto": "./Parcial2/pnovelas/texto/seccion11.txt",
+                "opciones": [119, 115],
+                "119": "fin",
+                "115": "inicio"
+                
+                
+        },
+        "fin": {
+                "imagen":"./Parcial2/pnovelas/imagenes/medalla.jpg",
+                "texto":"./Parcial2/pnovelas/texto/fin.txt"
+        }
 }
