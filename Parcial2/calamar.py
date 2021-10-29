@@ -18,7 +18,10 @@ def apostar(apj, apm, cj, cm):
             print("")
             print("el numero debe ser mayor a cero y menor a tu numero de canicas")
             print("")
-    apm = random.choice(range(1, cm))
+    while ap:
+        apm = random.choice(range(cm))
+        if apm != 0:
+            break
     return apj, apm
 
 
